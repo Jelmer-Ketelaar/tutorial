@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: text
+fieldGroup: 8441a73d-9a66-4bd0-b906-930da967b794 # Blog
+handle: postContent
+instructions: null
+name: 'Post Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: 6d9a0632-dcd4-40cb-b4da-7c1bce40b80c # Simple
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

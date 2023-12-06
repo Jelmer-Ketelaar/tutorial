@@ -1,0 +1,75 @@
+field: 328a2bfc-9a1e-45af-9f86-22b195ab13ee # Post Content
+fieldLayouts:
+  80344a3c-e3c3-420d-a57d-acd4063761a3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1f0f2d52-30af-42ba-a1d2-b65c11d2b88e # image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 429d8dc2-942b-4067-8745-599cb6501136
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 83852a04-8ca9-49ce-b0b9-ca6bcbc52f32
+        userCondition: null
+fields:
+  1f0f2d52-30af-42ba-a1d2-b65c11d2b88e: # image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: true
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:d817daa9-8840-4c03-b168-4aff0fbe6853' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:d817daa9-8840-4c03-b168-4aff0fbe6853' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

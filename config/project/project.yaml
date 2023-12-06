@@ -1,0 +1,48 @@
+dateModified: 1701855165
+email:
+  fromEmail: jelmer@redkiwi.nl
+  fromName: tutorial
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@web/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    1f0f2d52-30af-42ba-a1d2-b65c11d2b88e: image # image
+    5ffb6d9f-f6fd-4c4b-9037-645f17d3eda9: Image # Image
+    6d9a0632-dcd4-40cb-b4da-7c1bce40b80c: Simple # Simple
+    328a2bfc-9a1e-45af-9f86-22b195ab13ee: 'Post Content' # Post Content
+    814bb60e-ec5b-4eb2-b5c3-5a070e7550e2: Common # Common
+    855ed46c-d414-4a19-87dd-bcb4fbbc860d: Text # Text
+    8441a73d-9a66-4bd0-b906-930da967b794: Blog # Blog
+    13052e7d-8fdb-4ece-9f96-075a9badb573: 'Feature Image' # Feature Image
+    89923bde-b882-406d-9894-f6cee3795dba: Blog # Blog
+    93946a3b-7f3e-4f1b-a9b9-b4f638dfb77b: Text # Text
+    42955169-117d-4f5f-b8e1-2a971bb003ac: Post # Post
+    a54f868f-e00a-42fe-a911-dcb81b4ea754: Summary # Summary
+    cb367135-6126-4f5d-b4b1-8d5c8432d7f1: Topics # Topics
+    d1d09951-bb01-42f2-a3d9-4f1623e3bd6a: tutorial # tutorial
+    d817daa9-8840-4c03-b168-4aff0fbe6853: Images # Images
+    ebac33ef-b511-4409-8e7f-8e0414377479: tutorial # tutorial
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: tutorial
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
